@@ -48,13 +48,15 @@ html, body {
 	margin-right: 100px;
 	margin-left: 100px;
 	margin top: 100px;
+	margin-bottom: 100px;
 }
 
 .dashboard-titles {
+	color: white;
 	font-size: 30px;
 	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 }
 
 .parameters-content {
@@ -62,13 +64,16 @@ html, body {
 	background-color: rgba(255, 255, 255, 0.2);
 	margin-right: 15px;
 	margin-bottom: 15px;
-	padding-bottom: 50px;
+	
 }
 
 .supplies-content {
 	font-size: 20px;
 	background-color: rgba(255, 255, 255, 0.2);
 	margin-right: 15px;
+	
+	margin-top: 15px;
+
 }
 
 .environment-content {
@@ -80,10 +85,11 @@ html, body {
 .metrics-content {
 	font-size: 20px;
 	background-color: rgba(255, 255, 255, 0.2);
+	margin-top: 15px;
 }
 
 .dashboard-buttons {
-	background-color: white;
+	background-color: #845EC2;
 	padding: 15px;
 }
 
